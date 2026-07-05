@@ -19,14 +19,18 @@ the behavioral difference between a hub and a switch.
 1. Connected two PCs directly via crossover cable, assigned static IPs on same subnet.
 2. Connected multiple PCs via a switch, assigned static IPs.
 3. Compared hub vs switch behavior using Simulation Mode.
-
+4. (Planned) Verify switch MAC address learning using `show mac address-table`.
+   
 ## Verification
 - `ping` between directly connected PCs → Success
 - `ping` between switched PCs → Success
 - Screenshot: `screenshots/ping-test.png`
+- `show mac address-table` — pending, to be added once source .pkt file is accessible again
 
 ## Concepts Covered
 - Static IP addressing
 - Crossover vs straight-through cabling (practical use)
 - Hub (broadcast/flooding) vs Switch (per-port forwarding) behavior
 - Cisco Packet Tracer Simulation Mode
+
+
