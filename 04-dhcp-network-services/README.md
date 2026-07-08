@@ -10,7 +10,8 @@ their underlying protocol theory.
 - Screenshot: `screenshots/01-router-ip-config.png`
 
 ## DHCP Configuration
-1. Configured DHCP server (pool, network, default gateway) — `screenshots/02-dhcp-server-config.png`
+1. Configured DHCP server — Pool name: `serverPool`, Network: `192.168.3.0`, 
+   Default Gateway: `192.168.3.10` — `screenshots/02-dhcp-server-config.png`
 2. Set DHCP pool settings (address range, lease) — `screenshots/03-dhcp-pool-settings.png`
 3. Verified client received IP automatically via DHCP — `screenshots/04-dhcp-client-assigned.png`
 4. Verified DHCP binding/status — `screenshots/05-dhcp-verification.png`
